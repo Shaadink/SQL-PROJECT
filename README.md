@@ -1,4 +1,4 @@
- E-commerce Customer Sales Analysis: Data Governance & BI
+# E-commerce Customer Sales Analysis: Data Governance & BI
 
 🎯 Project Goal
 
