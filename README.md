@@ -1,10 +1,10 @@
-# E-commerce Customer Sales Analysis: Data Governance & BI
+# E-commerce Customer Sales Analysis
 
-🎯 Project Goal
+## Project Goal
 
 The primary goal of this project was to implement a complete data pipeline using SQL. This process started with transforming a large, messy e-commerce dataset into a highly structured, scalable data model, followed by performing deep analytical queries to generate actionable business insights for marketing, inventory, and strategic decision-making.
 
-💾 About the Dataset
+## About the Dataset
 
 Source: E-commerce Customer Sales Data
 
@@ -14,7 +14,7 @@ Key Fields: OrderID, CustomerID, Product, Category, TotalPrice, OrderDate, Payme
 
 Initial State: The dataset contained common data quality issues, including missing values, format inconsistencies, and redundant data structures, requiring significant data governance efforts.
 
-🧹 Data Cleaning & Normalization (3NF)
+## Data Cleaning & Normalization (3NF)
 
 This section demonstrates core Data Governance skills, ensuring the resulting data model is reliable for Business Intelligence (BI) reporting.
 
@@ -24,7 +24,7 @@ Normalization (3NF): The flat, messy sales data was broken down and normalized i
 
 ER Diagram: The Entity-Relationship (ER) Diagram within the project documentation (ECOMMERCE CUSTOMER...docx) visually confirms the structured Third Normal Form (3NF) relationships.
 
-📈 SQL Visualization & Analysis
+## SQL Visualization & Analysis
 
 The sql visualization.sql file contains advanced analytical queries (designed to feed a BI tool like Power BI/Tableau) covering key business areas:
 
@@ -36,7 +36,7 @@ Customer Behavior: Top 5 Customers by Spending and Average Days Between Orders (
 
 Marketing & Finance: Revenue by Payment Method, Campaign Performance, and Month-over-Month (MoM) Revenue Growth %.
 
-💡 Key Insights & Recommendations
+## Key Insights & Recommendations
 
 The analysis yielded the following strategic conclusions and recommendations for the business:
 
