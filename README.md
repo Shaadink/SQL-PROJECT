@@ -7,11 +7,60 @@ The primary goal of this project was to implement a complete data pipeline using
 
 ## Repository Contents
 
-File Name,Description,Purpose
-ECOMMERCE CUSTOMER...docx,"Project Documentation: Contains the problem statement, detailed data cleaning steps, the Entity-Relationship (ER) Diagram, and the final business recommendations.",Showcases documentation and data storytelling skills.
-ecommerce_customer_dirty.csv,Raw Data: The initial dataset before any cleaning or transformation.,Demonstrates initial handling of messy data.
-sql normalization.sql,"Data Governance Code: SQL script for cleaning the raw data and building the normalized 3NF schema (Customers, Products, Orders, Order_Items tables).",Proves competency in scalable data architecture.
-sql visualization.sql,Analytical Code: SQL script containing all complex queries used to generate the final business metrics and insights for BI tool integration.,Proves advanced analytical querying skills.
+# 🛒 E-Commerce Customer Analysis Project
+
+## 📂 Project Files Overview
+
+| File Name | Description | Purpose |
+|------------|-------------|----------|
+| **ECOMMERCE_CUSTOMER_PROJECT.docx** | **Project Documentation:** Contains the problem statement, detailed data cleaning steps, the Entity-Relationship (ER) Diagram, and the final business recommendations. | Showcases documentation and data storytelling skills. |
+| **ecommerce_customer_dirty.csv** | **Raw Data:** The initial dataset before any cleaning or transformation. | Demonstrates initial handling of messy data. |
+| **sql_normalization.sql** | **Data Governance Code:** SQL script for cleaning the raw data and building the normalized 3NF schema (`Customers`, `Products`, `Orders`, `Order_Items` tables). | Proves competency in scalable data architecture. |
+| **sql_visualization.sql** | **Analytical Code:** SQL script containing all complex queries used to generate the final business metrics and insights for BI tool integration. | Proves advanced analytical querying skills. |
+
+---
+
+## 🧠 Project Summary
+
+This project focuses on transforming raw e-commerce customer data into meaningful insights.  
+It demonstrates the complete data analysis lifecycle — from **data cleaning** and **database normalization** to **SQL-based analytics** and **business intelligence reporting**.
+
+### Key Highlights
+- 📊 **Data Cleaning & Transformation** using SQL.
+- 🗄️ **Database Design** following 3NF normalization.
+- 📈 **Advanced Analytical Queries** for KPIs and trend analysis.
+- 💡 **Actionable Business Recommendations** backed by data.
+
+---
+
+## 🛠️ Tech Stack
+
+- **SQL (MySQL / PostgreSQL)** – Data cleaning, normalization, and analytics  
+- **Excel / Power BI** – Visualization and reporting  
+- **MS Word / Docs** – Documentation and storytelling
+
+---
+
+## 🚀 How to Use
+
+1. Open `ecommerce_customer_dirty.csv` to explore the raw dataset.  
+2. Run `sql_normalization.sql` to create and populate the normalized schema.  
+3. Execute queries in `sql_visualization.sql` to generate analytical metrics.  
+4. Review `ECOMMERCE_CUSTOMER_PROJECT.docx` for project documentation and insights.
+
+---
+
+## 🏁 Outcome
+
+- Built a **scalable database model** for e-commerce data.  
+- Extracted **key business metrics** (customer lifetime value, product performance, repeat rate, etc.).  
+- Delivered **data-driven recommendations** to improve customer retention and sales efficiency.
+
+---
+
+📌 *This project demonstrates end-to-end SQL-driven data analysis and documentation for business intelligence.*
+
+
 ## About the Dataset
 
 Source: E-commerce Customer Sales Data
