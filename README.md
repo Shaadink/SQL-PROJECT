@@ -75,7 +75,7 @@ The file **`sql visualization.sql`** contains **advanced analytical SQL queries*
 |------------|-------------|----------|
 | **https://github.com/Shaadink/SQL-PROJECT/blob/main/SQL%20PROJECT%20FINAL/ECOMMERCE%20CUSTOMER%20SALES%20ANALYSIS%20updated12.docx** | Project documentation containing the problem statement, detailed cleaning steps, ER Diagram, and business recommendations. | Showcases documentation and storytelling skills. |
 | **https://github.com/Shaadink/SQL-PROJECT/blob/main/SQL%20PROJECT%20FINAL/ecommerce_customer_sales_dirty.csv** | Raw dataset before cleaning and transformation. | Demonstrates handling of messy data. |
-| **sql normalization.sql** | SQL script for cleaning raw data and building the **normalized 3NF schema** (`Customers`, `Products`, `Orders`, `Order_Items`). | Proves scalable data architecture design skills. |
+| **https://github.com/Shaadink/SQL-PROJECT/blob/main/SQL%20PROJECT%20FINAL/sql%20normalization.sql** | SQL script for cleaning raw data and building the **normalized 3NF schema** (`Customers`, `Products`, `Orders`, `Order_Items`). | Proves scalable data architecture design skills. |
 | **sql visualization.sql** | Analytical SQL queries for generating **business metrics and BI insights**. | Demonstrates advanced SQL analytical skills. |
 
 ---
