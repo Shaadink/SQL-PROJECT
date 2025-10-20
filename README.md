@@ -1,112 +1,117 @@
-# E-commerce Customer Sales Analysis
-
-## Project Goal
-
-The primary goal of this project was to implement a complete data pipeline using SQL. This process started with transforming a large, messy e-commerce dataset into a highly structured, scalable data model, followed by performing deep analytical queries to generate actionable business insights for marketing, inventory, and strategic decision-making.
-
-
-## Repository Contents
-
-# 🛒 E-Commerce Customer Analysis Project
-
-## 📂 Project Files Overview
-
-| File Name | Description | Purpose |
-|------------|-------------|----------|
-| **ECOMMERCE_CUSTOMER_PROJECT.docx** | **Project Documentation:** Contains the problem statement, detailed data cleaning steps, the Entity-Relationship (ER) Diagram, and the final business recommendations. | Showcases documentation and data storytelling skills. |
-| **ecommerce_customer_dirty.csv** | **Raw Data:** The initial dataset before any cleaning or transformation. | Demonstrates initial handling of messy data. |
-| **sql_normalization.sql** | **Data Governance Code:** SQL script for cleaning the raw data and building the normalized 3NF schema (`Customers`, `Products`, `Orders`, `Order_Items` tables). | Proves competency in scalable data architecture. |
-| **sql_visualization.sql** | **Analytical Code:** SQL script containing all complex queries used to generate the final business metrics and insights for BI tool integration. | Proves advanced analytical querying skills. |
 
 ---
 
-## 🧠 Project Summary
+## 📊 Business Metrics & Insights
 
-This project focuses on transforming raw e-commerce customer data into meaningful insights.  
-It demonstrates the complete data analysis lifecycle — from **data cleaning** and **database normalization** to **SQL-based analytics** and **business intelligence reporting**.
+### **Section 1: Overall Business Metrics**
 
-### Key Highlights
-- 📊 **Data Cleaning & Transformation** using SQL.
-- 🗄️ **Database Design** following 3NF normalization.
-- 📈 **Advanced Analytical Queries** for KPIs and trend analysis.
-- 💡 **Actionable Business Recommendations** backed by data.
+| Metric | Description | Insight |
+|---------|-------------|----------|
+| **Total Revenue** | Sum of all sales. | Shows total business earnings and growth. |
+| **Total Orders** | Count of all customer orders. | Indicates sales activity and demand. |
+| **Total Customers** | Unique count of customers. | Measures customer reach and market size. |
 
 ---
 
-## 🛠️ Tech Stack
+### **Section 2: Product Performance**
 
-- **SQL (MySQL / PostgreSQL)** – Data cleaning, normalization, and analytics  
-- **Excel / Power BI** – Visualization and reporting  
-- **MS Word / Docs** – Documentation and storytelling
+| Metric | Description | Insight |
+|---------|-------------|----------|
+| **Top 5 Best-Selling Products** | Highest quantity sold. | Identifies popular, high-demand items. |
+| **Top 5 Products by Revenue** | Highest total sales value. | Highlights most profitable products. |
+
+---
+
+### **Section 3: Customer Behavior**
+
+| Metric | Description | Insight |
+|---------|-------------|----------|
+| **Top 5 Customers by Spending** | Customers with highest spend. | Identify high-value customers for loyalty programs. |
+| **Revenue by Country** | Total revenue by region. | Shows top-performing markets. |
+| **Revenue by Gender** | Male vs. Female revenue split. | Helps balance marketing strategies. |
+
+---
+
+### **Section 4: Marketing & Payment Insights**
+
+| Metric | Description | Insight |
+|---------|-------------|----------|
+| **Revenue by Payment Method** | Sales via UPI, Card, Cash, etc. | Understand customer payment preferences. |
+| **Campaign Performance** | Revenue by campaign source. | Evaluate effectiveness of marketing channels. |
+| **Month-over-Month Revenue Growth (%)** | Monthly trend analysis. | Identify peak and low-performing months. |
+| **Orders per Country** | Number of orders by country. | Measure brand presence geographically. |
+| **Average Discount by Payment Method** | Compare discounts across payment types. | Optimize promotional strategies. |
+| **Average Days Between Orders** | Time gap between repeat purchases. | Gauge customer loyalty and engagement. |
+
+---
+
+## 📈 Key Business Insights
+
+1. **Business Performance:**  
+   Revenue and orders are strong — frequent small purchases drive growth.  
+   ➡️ *Focus on repeat sales and affordable, fast-moving products.*
+
+2. **Top Products:**  
+   Smartphones, T-shirts, sneakers, laptops, and headphones lead sales.  
+   ➡️ *Invest more in fashion and electronics; use bundle offers.*
+
+3. **Customer Behavior:**  
+   Male and female customers spend equally; top 5 customers drive major revenue.  
+   ➡️ *Implement loyalty programs and early access deals.*
+
+4. **Country Insights:**  
+   USA, India, and UK dominate sales.  
+   ➡️ *Expand localized ads and delivery options.*
+
+5. **Monthly Trends:**  
+   Peak in December (holiday season).  
+   ➡️ *Run major promotions from October–December.*
+
+6. **Campaigns:**  
+   Google Ads and Email Marketing are top performers.  
+   ➡️ *Increase investment; improve Facebook/Instagram engagement.*
+
+7. **Payment Insights:**  
+   All payment methods offer equal discounts.  
+   ➡️ *Introduce extra incentives for UPI or Debit Card to lower fees.*
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- **SQL (MySQL / PostgreSQL)** — Data cleaning, normalization, analysis  
+- **Power Query / Power BI** — Data transformation and visualization  
+- **Excel** — Preprocessing and verification  
+- **Word / Docs** — Project documentation  
 
 ---
 
 ## 🚀 How to Use
 
-1. Open `ecommerce_customer_dirty.csv` to explore the raw dataset.  
-2. Run `sql_normalization.sql` to create and populate the normalized schema.  
-3. Execute queries in `sql_visualization.sql` to generate analytical metrics.  
-4. Review `ECOMMERCE_CUSTOMER_PROJECT.docx` for project documentation and insights.
+1. Open `ecommerce_customer_sales_dirty.csv` to review raw data.  
+2. Run `sql normalization.sql` to create and populate database tables.  
+3. Execute `sql visualization.sql` to generate business metrics and insights.  
+4. Import results into Power BI for visualization.  
+5. Refer to `ECOMMERCE CUSTOMER SALES ANALYSIS updated.docx` for detailed explanation.
 
 ---
 
 ## 🏁 Outcome
 
-- Built a **scalable database model** for e-commerce data.  
-- Extracted **key business metrics** (customer lifetime value, product performance, repeat rate, etc.).  
-- Delivered **data-driven recommendations** to improve customer retention and sales efficiency.
+✅ Clean and normalized e-commerce database (3NF)  
+✅ Generated analytical SQL insights and KPIs  
+✅ Visualized key business metrics in BI dashboard  
+✅ Delivered actionable recommendations for decision-making
 
 ---
 
-📌 *This project demonstrates end-to-end SQL-driven data analysis and documentation for business intelligence.*
+## 🧾 Author
 
+**Shadin K**  
+Data Analyst | SQL & BI Enthusiast  
+📧 [YourEmail@example.com]  
+🌐 [LinkedIn or Portfolio URL]  
 
-## About the Dataset
+---
 
-Source: E-commerce Customer Sales Data
-
-Size: Approximately 30,000 Rows, 15 Columns
-
-Key Fields: OrderID, CustomerID, Product, Category, TotalPrice, OrderDate, PaymentMethod, CampaignSource.
-
-Initial State: The dataset contained common data quality issues, including missing values, format inconsistencies, and redundant data structures, requiring significant data governance efforts.
-
-## Data Cleaning & Normalization (3NF)
-
-This section demonstrates core Data Governance skills, ensuring the resulting data model is reliable for Business Intelligence (BI) reporting.
-
-Data Cleaning: Handled missing values (e.g., gender, prices), removed duplicates, and standardized categorical data formats (e.g., gender: 'f' to 'F').
-
-Normalization (3NF): The flat, messy sales data was broken down and normalized into four distinct, related tables (Customers, Products, Orders, Order Items) to eliminate redundancy and protect data integrity.
-
-ER Diagram: The Entity-Relationship (ER) Diagram within the project documentation (ECOMMERCE CUSTOMER...docx) visually confirms the structured Third Normal Form (3NF) relationships.
-
-## SQL Visualization & Analysis
-
-The sql visualization.sql file contains advanced analytical queries (designed to feed a BI tool like Power BI/Tableau) covering key business areas:
-
-Overall Business Metrics: Total Revenue, Total Orders, Total Customers.
-
-Product Performance: Top 5 Best-Selling Products by Quantity and Revenue (using JOINs).
-
-Customer Behavior: Top 5 Customers by Spending and Average Days Between Orders (using advanced Window Functions like LAG()).
-
-Marketing & Finance: Revenue by Payment Method, Campaign Performance, and Month-over-Month (MoM) Revenue Growth %.
-
-## Key Insights & Recommendations
-
-The analysis yielded the following strategic conclusions and recommendations for the business:
-
-Customer Loyalty: Customers average a new order every 14.32 days.
-
-Recommendation: Use this metric to optimize campaign timing, sending targeted offers 2-3 days prior to the expected repurchase window to boost customer retention.
-
-Revenue Drivers: Fashion and Electronics are the highest-contributing categories.
-
-Recommendation: Focus inventory and marketing efforts on these high-margin categories and explore upselling opportunities (e.g., offering phone cases with mobile phones).
-
-Sales Trends: Sales show regular month-to-month volatility with strong growth in certain months (e.g., April 2025, Jan 2025).
-
-Recommendation: Investigate the success factors of high-growth months and launch focused campaigns in historically slower months to stabilize the revenue stream.
-
-View the full data cleaning steps, ER Diagram, and detailed recommendations in the accompanying document: ECOMMERCE CUSTOMER SALES ANALYSIS updated12 (1).docx
+📌 *This project demonstrates end-to-end SQL-driven data analysis and storytelling for business intelligence.*
