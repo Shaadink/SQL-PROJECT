@@ -4,6 +4,14 @@
 
 The primary goal of this project was to implement a complete data pipeline using SQL. This process started with transforming a large, messy e-commerce dataset into a highly structured, scalable data model, followed by performing deep analytical queries to generate actionable business insights for marketing, inventory, and strategic decision-making.
 
+
+## Repository Contents
+
+File Name,Description,Purpose
+ECOMMERCE CUSTOMER...docx,"Project Documentation: Contains the problem statement, detailed data cleaning steps, the Entity-Relationship (ER) Diagram, and the final business recommendations.",Showcases documentation and data storytelling skills.
+ecommerce_customer_dirty.csv,Raw Data: The initial dataset before any cleaning or transformation.,Demonstrates initial handling of messy data.
+sql normalization.sql,"Data Governance Code: SQL script for cleaning the raw data and building the normalized 3NF schema (Customers, Products, Orders, Order_Items tables).",Proves competency in scalable data architecture.
+sql visualization.sql,Analytical Code: SQL script containing all complex queries used to generate the final business metrics and insights for BI tool integration.,Proves advanced analytical querying skills.
 ## About the Dataset
 
 Source: E-commerce Customer Sales Data
