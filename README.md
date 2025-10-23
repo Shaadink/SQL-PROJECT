@@ -1,4 +1,9 @@
 #  E-commerce Customer Sales Analysis: Data Governance & BI
+
+<p align="center">
+  <h1 align="center"> E-commerce Customer Sales Analysis: Data Governance & BI</h1>
+  <img src="https://github.com/Shaadink/SQL-PROJECT/blob/main/ecommerce%20background.jpg"/>
+</p>
 -![dashboard view](https://github.com/Shaadink/SQL-PROJECT/blob/main/ecommerce%20background.jpg)
 ---
 
