@@ -1,5 +1,5 @@
 #  E-commerce Customer Sales Analysis: Data Governance & BI
-
+-![dashboard view](https://github.com/Shaadink/SQL-PROJECT/blob/main/ecommerce%20background.jpg)
 ---
 
 ##  Project Goal
