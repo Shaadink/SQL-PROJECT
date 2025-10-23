@@ -3,7 +3,6 @@
   <h1 align="center"></h1>
   <img src="https://github.com/Shaadink/SQL-PROJECT/blob/main/ecommerce%20background.jpg"/>
 </p>
----
 
 ##  Project Goal
 
